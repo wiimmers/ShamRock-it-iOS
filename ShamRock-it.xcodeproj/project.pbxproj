@@ -14,6 +14,9 @@
 		2D3DA0D72B9BFB3500C1AA08 /* ShamRock_itTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0D62B9BFB3500C1AA08 /* ShamRock_itTests.swift */; };
 		2D3DA0E12B9BFB3500C1AA08 /* ShamRock_itUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0E02B9BFB3500C1AA08 /* ShamRock_itUITests.swift */; };
 		2D3DA0E32B9BFB3500C1AA08 /* ShamRock_itUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0E22B9BFB3500C1AA08 /* ShamRock_itUITestsLaunchTests.swift */; };
+		2DC69F6E2B9E13B00027DD61 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC69F6D2B9E13B00027DD61 /* Buttons.swift */; };
+		2DC69F702B9E143E0027DD61 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC69F6F2B9E143E0027DD61 /* Form.swift */; };
+		2DC69F722B9EA8DE0027DD61 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC69F712B9EA8DE0027DD61 /* Pages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2D3DA0DC2B9BFB3500C1AA08 /* ShamRock-itUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShamRock-itUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3DA0E02B9BFB3500C1AA08 /* ShamRock_itUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamRock_itUITests.swift; sourceTree = "<group>"; };
 		2D3DA0E22B9BFB3500C1AA08 /* ShamRock_itUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamRock_itUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DC69F6D2B9E13B00027DD61 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		2DC69F6F2B9E143E0027DD61 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		2DC69F712B9EA8DE0027DD61 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,11 @@
 		2D3DA0C42B9BFB3100C1AA08 /* ShamRock-it */ = {
 			isa = PBXGroup;
 			children = (
+				2DC69F712B9EA8DE0027DD61 /* Pages.swift */,
 				2D3DA0C52B9BFB3100C1AA08 /* ShamRock_itApp.swift */,
 				2D3DA0C72B9BFB3100C1AA08 /* ContentView.swift */,
+				2DC69F6D2B9E13B00027DD61 /* Buttons.swift */,
+				2DC69F6F2B9E143E0027DD61 /* Form.swift */,
 				2D3DA0C92B9BFB3400C1AA08 /* Assets.xcassets */,
 				2D3DA0CB2B9BFB3400C1AA08 /* Preview Content */,
 			);
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC69F6E2B9E13B00027DD61 /* Buttons.swift in Sources */,
+				2DC69F702B9E143E0027DD61 /* Form.swift in Sources */,
+				2DC69F722B9EA8DE0027DD61 /* Pages.swift in Sources */,
 				2D3DA0C82B9BFB3100C1AA08 /* ContentView.swift in Sources */,
 				2D3DA0C62B9BFB3100C1AA08 /* ShamRock_itApp.swift in Sources */,
 			);
