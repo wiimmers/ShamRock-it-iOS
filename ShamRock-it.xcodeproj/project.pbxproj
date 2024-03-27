@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2D3DA0C62B9BFB3100C1AA08 /* ShamRock_itApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0C52B9BFB3100C1AA08 /* ShamRock_itApp.swift */; };
-		2D3DA0C82B9BFB3100C1AA08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0C72B9BFB3100C1AA08 /* ContentView.swift */; };
+		2D3DA0C82B9BFB3100C1AA08 /* ShamrockitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0C72B9BFB3100C1AA08 /* ShamrockitView.swift */; };
 		2D3DA0CA2B9BFB3400C1AA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DA0C92B9BFB3400C1AA08 /* Assets.xcassets */; };
 		2D3DA0CD2B9BFB3400C1AA08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DA0CC2B9BFB3400C1AA08 /* Preview Assets.xcassets */; };
 		2D3DA0D72B9BFB3500C1AA08 /* ShamRock_itTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0D62B9BFB3500C1AA08 /* ShamRock_itTests.swift */; };
 		2D3DA0E12B9BFB3500C1AA08 /* ShamRock_itUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0E02B9BFB3500C1AA08 /* ShamRock_itUITests.swift */; };
 		2D3DA0E32B9BFB3500C1AA08 /* ShamRock_itUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DA0E22B9BFB3500C1AA08 /* ShamRock_itUITestsLaunchTests.swift */; };
+		2D9234632B9FF7FB00BBB934 /* Mailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9234622B9FF7FB00BBB934 /* Mailer.swift */; };
+		2D9234662B9FF89500BBB934 /* SwiftSMTP in Frameworks */ = {isa = PBXBuildFile; productRef = 2D9234652B9FF89500BBB934 /* SwiftSMTP */; };
+		2D9234682BA13DDC00BBB934 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9234672BA13DDC00BBB934 /* User.swift */; };
 		2DC69F6E2B9E13B00027DD61 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC69F6D2B9E13B00027DD61 /* Buttons.swift */; };
 		2DC69F702B9E143E0027DD61 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC69F6F2B9E143E0027DD61 /* Form.swift */; };
 		2DC69F722B9EA8DE0027DD61 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC69F712B9EA8DE0027DD61 /* Pages.swift */; };
@@ -39,7 +42,7 @@
 /* Begin PBXFileReference section */
 		2D3DA0C22B9BFB3100C1AA08 /* ShamRock-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShamRock-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3DA0C52B9BFB3100C1AA08 /* ShamRock_itApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamRock_itApp.swift; sourceTree = "<group>"; };
-		2D3DA0C72B9BFB3100C1AA08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D3DA0C72B9BFB3100C1AA08 /* ShamrockitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamrockitView.swift; sourceTree = "<group>"; };
 		2D3DA0C92B9BFB3400C1AA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3DA0CC2B9BFB3400C1AA08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D3DA0D22B9BFB3500C1AA08 /* ShamRock-itTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShamRock-itTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,8 @@
 		2D3DA0DC2B9BFB3500C1AA08 /* ShamRock-itUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShamRock-itUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3DA0E02B9BFB3500C1AA08 /* ShamRock_itUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamRock_itUITests.swift; sourceTree = "<group>"; };
 		2D3DA0E22B9BFB3500C1AA08 /* ShamRock_itUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamRock_itUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D9234622B9FF7FB00BBB934 /* Mailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mailer.swift; sourceTree = "<group>"; };
+		2D9234672BA13DDC00BBB934 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2DC69F6D2B9E13B00027DD61 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		2DC69F6F2B9E143E0027DD61 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		2DC69F712B9EA8DE0027DD61 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9234662B9FF89500BBB934 /* SwiftSMTP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,11 +108,13 @@
 			children = (
 				2DC69F712B9EA8DE0027DD61 /* Pages.swift */,
 				2D3DA0C52B9BFB3100C1AA08 /* ShamRock_itApp.swift */,
-				2D3DA0C72B9BFB3100C1AA08 /* ContentView.swift */,
+				2D3DA0C72B9BFB3100C1AA08 /* ShamrockitView.swift */,
+				2D9234622B9FF7FB00BBB934 /* Mailer.swift */,
 				2DC69F6D2B9E13B00027DD61 /* Buttons.swift */,
 				2DC69F6F2B9E143E0027DD61 /* Form.swift */,
 				2D3DA0C92B9BFB3400C1AA08 /* Assets.xcassets */,
 				2D3DA0CB2B9BFB3400C1AA08 /* Preview Content */,
+				2D9234672BA13DDC00BBB934 /* User.swift */,
 			);
 			path = "ShamRock-it";
 			sourceTree = "<group>";
@@ -152,6 +160,9 @@
 			dependencies = (
 			);
 			name = "ShamRock-it";
+			packageProductDependencies = (
+				2D9234652B9FF89500BBB934 /* SwiftSMTP */,
+			);
 			productName = "ShamRock-it";
 			productReference = 2D3DA0C22B9BFB3100C1AA08 /* ShamRock-it.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 2D3DA0B92B9BFB3100C1AA08;
+			packageReferences = (
+				2D9234642B9FF89500BBB934 /* XCRemoteSwiftPackageReference "Swift-SMTP" */,
+			);
 			productRefGroup = 2D3DA0C32B9BFB3100C1AA08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -269,8 +283,10 @@
 				2DC69F6E2B9E13B00027DD61 /* Buttons.swift in Sources */,
 				2DC69F702B9E143E0027DD61 /* Form.swift in Sources */,
 				2DC69F722B9EA8DE0027DD61 /* Pages.swift in Sources */,
-				2D3DA0C82B9BFB3100C1AA08 /* ContentView.swift in Sources */,
+				2D3DA0C82B9BFB3100C1AA08 /* ShamrockitView.swift in Sources */,
 				2D3DA0C62B9BFB3100C1AA08 /* ShamRock_itApp.swift in Sources */,
+				2D9234632B9FF7FB00BBB934 /* Mailer.swift in Sources */,
+				2D9234682BA13DDC00BBB934 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +458,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +488,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -600,6 +618,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D9234642B9FF89500BBB934 /* XCRemoteSwiftPackageReference "Swift-SMTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/Swift-SMTP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D9234652B9FF89500BBB934 /* SwiftSMTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D9234642B9FF89500BBB934 /* XCRemoteSwiftPackageReference "Swift-SMTP" */;
+			productName = SwiftSMTP;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D3DA0BA2B9BFB3100C1AA08 /* Project object */;
 }

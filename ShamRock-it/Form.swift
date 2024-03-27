@@ -18,22 +18,22 @@ struct TicketForm: View {
         
         HStack {
             Labels(label: "First Name")
-            Fields(input: $firstName, isRequired: true)
+            StringFields(input: $firstName, isRequired: true)
         }
         
         HStack {
             Labels(label: "Last Name")
-            Fields(input: $lastName, isRequired: true)
+            StringFields(input: $lastName, isRequired: true)
         }
         
         HStack {
             Labels(label: "Email")
-            Fields(input: $email, isRequired: true)
+            StringFields(input: $email, isRequired: true)
         }
         
         HStack {
             Labels(label: "Extension")
-            Fields(input: $ext, isRequired: false)
+            StringFields(input: $ext, isRequired: false)
         }
     }
 }
@@ -54,15 +54,34 @@ struct Labels: View {
     }
 }
 
-struct Fields: View {
+struct StringFields: View {
     
     @Binding var input: String
     var isRequired: Bool
     
+
     var body: some View {
-        
-        TextField(isRequired ? "Required" : "", text: $input)
-            .textFieldStyle(RoundedBorderTextFieldStyle()).padding(.trailing)
-            .textInputAutocapitalization(.never)
+            TextField(isRequired ? "Required" : "", text: $input)
+                .textFieldStyle(RoundedBorderTextFieldStyle()).padding(.trailing)
+                .textInputAutocapitalization(.never)
+    }
+}
+
+struct IntFields: View {
+    
+    @Binding var input: Int?
+    var isRequired: Bool
+    
+
+    var body: some View {
+            TextField(isRequired ? "Required" : "", text: Binding<String>(
+                get: { self.input.map(String.init) ?? "" },
+                set: {
+                    // Convert the entered text back to an Int
+                    self.input = Int($0)
+                }
+            ))
+                .textFieldStyle(RoundedBorderTextFieldStyle()).padding(.trailing)
+                .textInputAutocapitalization(.never)
     }
 }

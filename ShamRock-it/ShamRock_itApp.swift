@@ -11,7 +11,8 @@ import SwiftUI
 struct ShamRock_itApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShamrockitView()
+                .environmentObject(User())
         }
     }
 }
